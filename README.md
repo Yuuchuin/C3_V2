@@ -11,4 +11,4 @@ The usage and details about this framework are shown in the homepage of C-3-Fram
 - CSRNetBN (Batch Normalization) and VGG19 are supported.
 - Grid Average Mean Absolute Error (GAME) metric for TRANCOS dataset is supproted.
 - TRANCOS dataset is supported.
-- Running speed testing is supported.
+
