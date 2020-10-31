@@ -6,4 +6,5 @@ The usage and details about this framework are shown in the homepage of C^3.
 
 - Density map downscaling is supported to fit the outputs of different networks.
 - Trainers are embeded in each corresponding basemodel, modify training components is more flexible.
-- The process of adding a new network is simplified.
+- The process of adding a new network is simplified. Adding a new network by creating a new network file as template, maintaining a list of networks' name is no more neccesary.
+- Fixed the unexpected key error (It happens in the condition of multi GPUs training but single GPU testing).
