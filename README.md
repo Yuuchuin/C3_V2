@@ -9,3 +9,6 @@ The usage and details about this framework are shown in the homepage of C^3.
 - The process of adding a new network is simplified. Adding a new network by creating a new network file following the template, maintaining a list of networks' name is no more neccesary.
 - Fixed the unexpected key error when loading weights (It happens in the condition of multi GPUs training but single GPU testing).
 - CSRNetBN (Batch Normalization) and VGG19 are supported.
+- Grid Absolute Mean Error (GAME) metric for TRANCOS dataset is supproted.
+- TRANCOS dataset is supported.
+- Running speed testing is supported.
